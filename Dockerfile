@@ -6,5 +6,5 @@ COPY Gemfile.lock .
 COPY . .
 
 RUN bundle config list
-RUN bundle install
+RUN bundle install --local
 RUN bundle list
